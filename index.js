@@ -42,7 +42,7 @@ function convertTimeToWords(time) {
   if (time === '0:00') {
     return 'midnight';
   }
-  // Find the string for correct minute and time
+  // Find the string for correct minute and hour
   let minTimeInWords = mapStrings[minutesTime]
   let hourTimeInWords =mapStrings[hourTime]
 
